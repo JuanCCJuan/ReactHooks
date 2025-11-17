@@ -1,0 +1,24 @@
+/* ELEMENTS */
+.base {
+    gap: 2rem;
+    flex-direction: column;
+}
+
+.base__counter {
+    font-size: 15rem;
+    font-weight: 500;
+    color: var(--white);
+}
+
+.base__actions {
+    gap: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.action {
+    font-size: 1.6rem;
+    padding: 1rem 3rem;
+    color: var(--white);
+    border-radius: 0.5rem;
+}
