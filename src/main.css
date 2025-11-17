@@ -1,0 +1,40 @@
+/* IMPORTS */
+@import "tailwindcss";
+
+/* GLOBALS */
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* FUNCTIONALITIES */
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
